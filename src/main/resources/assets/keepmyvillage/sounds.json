@@ -1,0 +1,50 @@
+{
+  "villager.angry1": {
+    "subtitle": "sounds.keepmyvillage.villager_angry",
+    "sounds": [
+      "keepmyvillage:villager/angry1"
+    ]
+  },
+  "villager.angry2": {
+    "subtitle": "sounds.keepmyvillage.villager_angry",
+    "sounds": [
+      "keepmyvillage:villager/angry2"
+    ]
+  },
+  "villager.angry3": {
+    "subtitle": "sounds.keepmyvillage.villager_angry",
+    "sounds": [
+      "keepmyvillage:villager/angry3"
+    ]
+    },
+    "villager.angry4": {
+    "subtitle": "sounds.keepmyvillage.villager_angry",
+    "sounds": [
+      "keepmyvillage:villager/angry3"
+    ]
+    },
+    "villager.angry5": {
+    "subtitle": "sounds.keepmyvillage.villager_angry",
+    "sounds": [
+      "keepmyvillage:villager/angry3"
+    ]
+    },
+    "villager.angry6": {
+    "subtitle": "sounds.keepmyvillage.villager_angry",
+    "sounds": [
+      "keepmyvillage:villager/angry3"
+    ]
+    },
+    "villager.angry7": {
+    "subtitle": "sounds.keepmyvillage.villager_angry",
+    "sounds": [
+      "keepmyvillage:villager/angry3"
+    ]
+    },
+    "villager.angry8": {
+    "subtitle": "sounds.keepmyvillage.villager_angry",
+    "sounds": [
+      "keepmyvillage:villager/angry3"
+    ]
+  }
+}

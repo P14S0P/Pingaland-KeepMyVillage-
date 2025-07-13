@@ -1,0 +1,35 @@
+# This is an example mods.toml file. It contains the data relating to the loading mods.
+# There are several mandatory fields (#mandatory), and many more that are optional (#optional).
+# The overall format is standard TOML format, v0.5.0.
+# Note that lines starting with # are comments.
+# For more information on the format of this file, see https://toml.io/en/v0.5.0
+
+modLoader="javafml" #mandatory
+loaderVersion="[47,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+license="All Rights Reserved"
+
+# A list of mods - how many allowed here is determined by a field below
+[[mods]] #mandatory
+
+modId="keepmyvillage" #mandatory
+version="1.0.0" #mandatory
+displayName="Pingaland - KeepMyVillage" #mandatory
+authors="Piasop" #optional
+description='''
+Prevents players from breaking any blocks within a village's boundaries. They get a warning from an angry villager instead.
+''' #optional
+
+# A dependency - use the modId as the value, supports = or > for version range
+[[dependencies.keepmyvillage]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[47,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.keepmyvillage]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
