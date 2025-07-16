@@ -20,7 +20,7 @@ public class ModConfig {
                 .comment("A list of block IDs that can always be broken inside a village.",
                          "Examples: [\"minecraft:torch\", \"minecraft:chest\", \"minecraft:crafting_table\"]")
                 .defineList("allowedBreakableBlocks",
-                            List.of("minecraft:torch", "minecraft:chest", "minecraft:crafting_table", "minecraft:furnace"),
+                            List.of("minecraft:powder_snow", "Minecraft:snow_block"),
                             obj -> obj instanceof String);
 
         BUILDER.pop();
